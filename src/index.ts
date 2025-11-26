@@ -3,6 +3,8 @@ import express, { Request, Response } from 'express';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+console.log('ass');
+
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
